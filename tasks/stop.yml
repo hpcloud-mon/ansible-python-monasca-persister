@@ -1,0 +1,3 @@
+---
+- name: Stop Python-Monasca-Persister
+  service: name=monasca-persister state=stopped

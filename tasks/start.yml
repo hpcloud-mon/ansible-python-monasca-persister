@@ -1,0 +1,3 @@
+---
+- name: Start and Enable Python-Monasca-Persister
+  service: name=monasca-persister state=started enabled=yes
